@@ -13,12 +13,12 @@ public class Bai3 {
         } catch (Exception e) {
             throw new MonthException();
         }
-        System.out.println(maximumDay(month));
+        System.out.println(dayInMonth(month));
         return month;
 
     }
 
-    public static int maximumDay(int monthNumber) {
+    public static int dayInMonth(int monthNumber) {
 
         switch (monthNumber) {
             case 2:
